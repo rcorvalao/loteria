@@ -15,7 +15,7 @@ import org.apache.commons.lang.StringUtils;
  * Classe que representa os diferentes tipos de loterias existentes no Brasil.
  * Por exemplo: Mega Sena, Quinta, LotoFacil, etc.
  *
- * @author corvalao
+ * @author corvalao (rafael.corvalao@gmail.com)
  */
 public class Loteria {
 	

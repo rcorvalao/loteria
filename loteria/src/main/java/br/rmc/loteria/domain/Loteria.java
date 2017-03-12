@@ -11,6 +11,11 @@ import java.util.Set;
 
 import org.apache.commons.lang.StringUtils;
 
+/**
+ * 
+ * @author corvalao
+ *
+ */
 public class Loteria {
 	
 	private String nome;

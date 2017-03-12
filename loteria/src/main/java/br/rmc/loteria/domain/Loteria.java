@@ -12,9 +12,10 @@ import java.util.Set;
 import org.apache.commons.lang.StringUtils;
 
 /**
- * 
- * @author corvalao
+ * Classe que representa os diferentes tipos de loterias existentes no Brasil.
+ * Por exemplo: Mega Sena, Quinta, LotoFacil, etc.
  *
+ * @author corvalao
  */
 public class Loteria {
 	

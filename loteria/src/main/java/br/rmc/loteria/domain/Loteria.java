@@ -23,8 +23,6 @@ public class Loteria {
 	
 	private List<ConcursoInfo> listaConcurso;
 	
-	
-
 	public Loteria() {
 		super();
 	}
@@ -41,7 +39,6 @@ public class Loteria {
 		this.setNome(n);
 		this.setListaConcurso(lista);
 	}
-	
 	
 	public String toXML() {
 		StringBuilder builder = new StringBuilder();
@@ -62,7 +59,6 @@ public class Loteria {
 		builder.append(this.getNome());
 		builder.append("</").append("nome").append(">\n\n");
 		
-		
 		builder.append("<").append("concursoinfos").append(">\n\n");
 		for (ConcursoInfo resultadoLoteria : this.getListaConcurso()) {
 			builder.append(resultadoLoteria.toXML()).append("\n");
@@ -81,11 +77,9 @@ public class Loteria {
 		return returnValue;
 	}
 
-
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-
 
 	public String getNome() {
 		return nome;
@@ -116,7 +110,6 @@ public class Loteria {
 			this.getListaConcurso().add(concurso);
 		}
 	}
-
 
 	/**
 	 * Busca por concurso que tenham dezenas iguais ao concurso de busca.<br>
@@ -160,7 +153,6 @@ public class Loteria {
 		return concurso;
 	}
 
-	
 	/**
 	 * Retorna a dezena que mais aparece.<br>
 	 * 
@@ -191,7 +183,6 @@ public class Loteria {
 		listaOrdenada.addAll(listaDosMais);
 		
 		Collections.sort(listaOrdenada);
-		
 		for (String num : listaOrdenada) {
 			Integer total = mapContagem.get(num);
 			System.out.println(num + " : " + total);
@@ -200,14 +191,11 @@ public class Loteria {
 				maiorTotal = total;
 				dezena = num;
 			}
-			
 		}
-		
 		
 		return dezena;
 	}
 
-	
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */

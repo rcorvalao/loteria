@@ -13,7 +13,7 @@ import org.apache.commons.lang.StringUtils;
 
 /**
  * Classe que representa os diferentes tipos de loterias existentes no Brasil.
- * Por exemplo: Mega Sena, Quinta, LotoFacil, etc.
+ * Por exemplo: MegaSena, Quinta, LotoFacil, TimeMania, etc.
  *
  * @author corvalao (rafael.corvalao@gmail.com)
  */
